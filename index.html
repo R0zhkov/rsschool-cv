@@ -4,23 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
-        <ul>
-          <li>About</li>
-          <li>Contacts</li>
-          <li>Skills</li>
-          <li>Cod examples</li>
-          <li>Pet projects</li>
-          <li>Education</li>
+        <ul class="menu">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Cod">Cod examples</a></li>
+          <li><a href="#Pet">Pet projects</a></li>
+          <li><a href="#Education">Education</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="about"></section>
+      <section id="about">
+        <h1>Luka Rozhkov</h1><h2>front-end developer</h2>
+        <img alt="Luka Rozhkov photo" src="./101292378.jpeg" class="photo">
+        <div>I am a dedicated professional with over 10 years of experience in project management and IT. I excel at developing and implementing innovative solutions that enhance business processes and team efficiency. My strong leadership, strategic thinking, and attention to detail enable me to successfully manage complex projects.</div>
+      </section>
+      <section id="Contacts"><h2>Contacts</h2>
+        <ul>
+          <li>+792223334</li>
+          <li>example@example.com</li>
+          <li>Russia, Moscow, Lenina st., 88, 35</li>
+        </ul>
+      </section>
+      <section id="Skills"><h2>Skills</h2>
+        <ul>
+          <li>Project Management: Proficient in leading projects from initiation to completion, ensuring timely delivery and adherence to budget.</li>
+          <li>Strategic Planning: Strong ability to develop and execute strategic plans that align with business objectives.</li>
+          <li>Leadership: Experienced in managing and motivating cross-functional teams to achieve high performance.</li>
+          <li>Problem Solving: Skilled in identifying issues and implementing effective solutions to overcome challenges.</li>
+          <li>Communication: Excellent verbal and written communication skills, facilitating clear and effective information exchange.</li>
+        </ul>
+      </section>
+      <section id="Cod"><h2>Cod examples</h2>
+        <pre>
+              const findSquares = num => {
+                let max = Math.ceil(num/2);
+                let min = max - 1;
+                return `${max ** 2}-${min ** 2}`;
+              };
+        </pre>
+      </section>
+      <section id="Pet"><h2>Pet projects</h2>
+      This one is my firstone!
+      </section>
+      <section id="Education"><h2>Education</h2>
+        <h3>Master of Business Administration (MBA)</h3>
+        <span class="adress">University Name, City</span>
+        2013
+        <h3>Bachelor of Science in Information Technology</h3>
+        <span class="adress">University Name, City</span>
+        2018
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <a href="https://rs.school/courses/javascript-ru"><img class="ft" alt="rs-school logo" src="./rs-school-logo.svg" width="100px"></a>
+      <span class="ft">2024</span>
+      <a href="https://github.com/R0zhkov"><img class="ft" alt="github logo" src="./iconmonstr-github-1.svg" width="50px"></a>
+    </footer>
   </body>
 </html>
