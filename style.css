@@ -140,7 +140,6 @@ table {
 .header {
   background-color: lightgray;
   height: 100px;
-
 }
 
 li {
@@ -200,4 +199,21 @@ font-family: 'Courier New', Courier, monospace;
 
 .adress {
   font-style: italic;
+}
+
+.photo {
+width: 100px;
+border-radius: 100%;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+gap: 50px;
+}
+
+.ft {
+  height: 50px;
 }
